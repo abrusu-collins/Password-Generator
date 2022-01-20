@@ -60,3 +60,23 @@ border-radius: 5px;
 }
 
 
+
+/*Media Queries*/
+
+@media(max-width:890px){
+    button{
+        width:30%;
+    }
+}
+
+@media(max-width:454px){
+    button{
+        width:40%;
+    }
+}
+
+@media(max-width:382px){
+    button{
+        width:50%;
+    }
+}
