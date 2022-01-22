@@ -37,9 +37,9 @@ border: 1px solid transparent;
 color:#fcfeff;
 border-radius: 5px;
 margin-top: 20px;
-
+font-size:20px;
 }
-.checks{
+.check{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -62,21 +62,52 @@ border-radius: 5px;
 
 
 /*Media Queries*/
-
+@media(max-width:1237px){
+    button{
+        width:20%;
+    }
+}
+@media(max-width:922px){
+    button{
+        width:23%;
+    }
+}
 @media(max-width:890px){
     button{
         width:30%;
     }
 }
 
+@media(max-width:653px){
+    button{
+        width:34%;
+    }
+}
+@media(max-width:663px){
+    h1{
+        text-align: center;
+    }
+}
+
+@media(max-width:582px){
+    button{
+        width:39%;
+    }
+}
+
+@media(max-width:490px){
+    button{
+        width:50%;
+    }
+}
 @media(max-width:454px){
     button{
-        width:40%;
+        width:56%;
     }
 }
 
 @media(max-width:382px){
     button{
-        width:50%;
+        width:70%;
     }
 }
